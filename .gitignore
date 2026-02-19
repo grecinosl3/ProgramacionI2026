@@ -1,1 +1,15 @@
-/videos/videos.sln
+# Carpetas de compilación (Archivos temporales pesados)
+[Bb]in/
+[Oo]bj/
+
+# Configuración de JetBrains Rider (La que se te subió por error)
+.idea/
+
+# Configuración de Visual Studio
+.vs/
+*.user
+*.suo
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
