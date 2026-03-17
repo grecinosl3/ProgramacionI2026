@@ -1,5 +1,4 @@
-﻿/*
-//Desafio 1
+﻿//-------- Desafio 1 --------
 static void desafio1()
 {
     Console.WriteLine("--- Bienvenido ---");
@@ -18,11 +17,9 @@ static void desafio1()
         }
     }
 }
-desafio1();
-*/
+//desafio1();
 
-/*
-//Desafio2
+//-------- Desafio2 --------
 static void desafio2()
 {
     Console.WriteLine("--- Bienvenido ---");
@@ -38,7 +35,6 @@ static void desafio2()
             divisores++;
         }
     }
-
     if (divisores == 2)
     {
         Console.WriteLine($"El numero {numero} es primo");
@@ -48,11 +44,9 @@ static void desafio2()
         Console.WriteLine($"El numero {numero} no es primo");
     }
 }
-desafio2();
-*/
+//desafio2();
 
-/*
-//Desafio3
+//-------- Desafio3 --------
 static void desafio3() 
 {
     Console.WriteLine("--- Bienvenido ---");
@@ -105,6 +99,5 @@ static void desafio3()
         Console.WriteLine("No se ingresaron notas.");
     }
 }
-desafio3();
 Console.ReadKey();
-*/
+//desafio3();

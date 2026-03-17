@@ -1,5 +1,4 @@
-﻿/*
- //-------------- En este mismo archivo estan agregado la parte 1 y 2 de la tarea --------------
+﻿//-------------- En este mismo archivo estan agregado la parte 1 y 2 de la tarea --------------
 
 //Desafio 1
 static void Programa(){
@@ -22,12 +21,9 @@ static void Programa(){
     
     Console.WriteLine($"Tu nombre es: {nombre}, tu ingreso es: {suma} y tu promedio es: {promedio}");
 }
-Programa();
-
-
+//Programa();
 
 //------------Desafio 2------------
-
 namespace Desafios
 {
     internal class Program
@@ -70,9 +66,8 @@ static void Menu()
     }
     Console.WriteLine("El programa ha terminado...");
 }
-Menu();
+//Menu();
 //----------Fin Desafio 3----------
-
 
 //----------Desafio 4----------
 using System;
@@ -114,7 +109,6 @@ class SistemaLogin()
             }
         } 
     }
-        
     static void registrarse()
     {
         Console.WriteLine("---Registro---");
@@ -142,7 +136,6 @@ class SistemaLogin()
             Console.WriteLine("Usuario registrado con exito");
         }
     }
-
     static void iniciarSesion()
     {
         Console.WriteLine("--- INICIO DE SESIÓN ---");
@@ -175,9 +168,7 @@ class SistemaLogin()
 }
 //----- Fin del desafio 4 -----
 
-
 //----- Desafio 5 ------
-
 using System.Diagnostics;
 
 class Juego
@@ -200,7 +191,6 @@ class Juego
             Console.WriteLine(
                 $"La puntuación mas alta de {Puntaje}, no se ha podido superar, y aún está mano de {JugadorRecord} ");
         }
-        
     }
     static void Main()
     {
@@ -210,5 +200,3 @@ class Juego
     }
 }
 //----- Fin del desafio 5 ------
-
-*/
